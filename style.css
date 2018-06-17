@@ -5,28 +5,33 @@ body {
     width: 960px;
     font-size: 18px;
     text-align: center;
-    margin-left: 173px;
+    margin: 0 auto;
 }
 
 header {
     margin-top: 10px;
-    width: 960px;
+    width: 900px;
     float: left;
     padding: 30px;
 }
 
 nav {
-    width: 960px;
+    width: 900px;
     float: left;
     padding: 30px;
     margin: 10px 0px;
     clear: both;
 }
 
+div.wrapper {
+    width: 960px;
+    float: left;
+}
+
 section {
     width: 495px;
     float: left;
-    margin-right: 10px;
+    margin: 10px 10px 10px 0px;
     padding: 30px 10px 10px 10px;
 }
 
@@ -48,22 +53,17 @@ p {
 }
 
 aside {
-    float: left;
-    width: 445px;
-    padding: 20px;
-    margin-left: 10px;
+    float: right;
+    width: 385px;
+    padding: 30px 20px 249px 20px;
+    margin: 10px 0px 10px 10px;
 }
 
 footer {
-    width: 960px;
+    width: 900px;
     float: left;
     margin-top: 10px;
     padding: 30px;
-}
-
-div.wrapper {
-    width: 960px;
-    float: left;
 }
 
 div.first {
